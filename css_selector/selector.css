@@ -1,0 +1,13 @@
+/* id selector */
+#title{
+  text-align: center;
+  font-size: 20pt;
+  font-family: sans-serif;
+}
+
+/* class selector */
+.section{
+  font-family: sans-serif;
+  font-size: 14pt;
+  font-style: inherit;
+}
