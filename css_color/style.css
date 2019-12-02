@@ -1,0 +1,14 @@
+/* rgb: red, blue, green */
+.title{
+  text-align: center;
+  color: blue;
+}
+.section{
+  text-align: justify;
+  color: rgba(70,155,200,1.8);
+}
+.content{
+  text-align: justify 1cm;
+  font-family: sans-serif;
+  color: chocolate;
+}
