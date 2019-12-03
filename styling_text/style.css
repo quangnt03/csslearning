@@ -1,0 +1,25 @@
+h1{
+  text-shadow: 0.75px 0.25px #000000;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: bold;
+  color: #000000;
+}
+
+.section{
+  text-shadow: 0.75px 0.25px #000000 #ffffff;
+  size: 16pt;
+  text-align: left;
+
+  text-transform: capitalize
+}
+.content{
+  text-indent: 0.5cm;
+  font-family: sans-serif;
+  font-size: 12pt;
+  line-height: 150%;
+}
