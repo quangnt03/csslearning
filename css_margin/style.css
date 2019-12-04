@@ -1,0 +1,18 @@
+.item.h1{
+  font-family: sans-serif;
+}
+body{
+  background-color: darkgray;
+}
+.item{
+  background-color: black;  
+  color: white;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  width: fit-content;
+  height: auto;
+  padding-top: 0.05px;
+  padding-bottom: 0.05px;
+  position: relative;
+  left: 3cm;
+}
