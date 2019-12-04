@@ -1,0 +1,31 @@
+body{
+  font-family: sans-serif;
+}
+.area{
+  position: relative;
+  left: 20cm;
+  background-color: white;
+  width: 350px;
+  padding-left: 1cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.05cm;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  opacity: 0.85;
+  filter: alpha(opacity=80);
+  shape-margin: 1px;
+  
+}
+div:hover{
+  box-shadow: white 5px 3px;
+}
+body{
+  background-color: #484f5c;
+}
+h1{
+  font-size: 20pt;
+  
+}
+h3{
+  font-size: 14pt;
+}
