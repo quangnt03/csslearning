@@ -1,0 +1,10 @@
+#display1{
+  display: inline;
+}
+#display{
+  display: block;
+}
+a{
+  font-size: 18pt;
+  display: inline-block;
+}
