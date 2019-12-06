@@ -1,0 +1,38 @@
+#link-to-google{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	color: white;
+	background: rgb(55,52,93);
+	background: rgb(143,134,255);
+	background: linear-gradient(90deg, rgba(143,134,255,1) 0%, rgba(0,30,255,1) 50%, rgba(128,128,255,1) 100%);
+	border-style: solid;
+	position: relative;
+	top: 2cm;
+	padding-left: 0.5cm;
+	padding-right: 0.5cm;
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	margin: 3pt 4pt 3pt 4pt;
+	border: 1pt solid gray;
+	box-shadow: 1.5pt 1.5pt gray;
+	shape-margin: 50%;
+	border-radius: 60pt;
+}
+#link-to-google:link{
+	text-decoration: none;
+}
+#link-to-google:visited{
+	text-decoration: overline;
+	background: radial-gradient(circle, rgba(143,134,255,1) 0%, rgba(74,84,255,1) 24%, rgba(0,30,255,1) 50%, rgba(150,157,255,1) 78%, rgba(128,128,255,1) 100%);
+}
+#link-to-google:active{
+	background: green;
+}
+#link-to-google:hover{
+	background: rgb(143,134,255);
+	background: radial-gradient(circle, rgba(143,134,255,1) 0%, rgba(74,84,255,1) 24%, rgba(0,30,255,1) 50%, rgba(150,157,255,1) 78%, rgba(128,128,255,1) 100%);
+
+	text-decoration: underline;
+	box-shadow: 2pt 2pt gray;
+}
