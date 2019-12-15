@@ -1,0 +1,45 @@
+.container{
+	height: 500px;
+	background-color: gray;
+	margin: 0pt 0pt 0pt 0pt;
+	/*Sử dụng kiểu Flexbox*/
+	display: flex;
+
+	/*Căn chỉnh theo hàng/cột (row/columm*/
+	flex-direction: row;
+	/*Giãn nội dung theo flex-direction (flex-start/flex-end/center/space-between)*/
+	justify-content: center;
+
+	/*Giãn nội dung vuông góc với flex-direction (flex-start/flex-end/center/space-between)*/
+	align-items: center;
+}
+p{
+	height: 200px;
+	font-size: 20pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#text1{
+	background-color: red;
+
+	/*Flex-basis: độ lớn tối đa mà elements có thể chiếm*/
+	flex-basis: 200px;
+	/*Flex-grow: dãn ra theo flex-direction theo tỉ lệ*/
+	flex-grow: 0;
+	/*order: thay đổi trật tự sắp xếp trong div khi lên browser*/
+	order: 3;
+}
+#text2{
+	background-color: green;
+	flex-basis: 300px;
+	flex-grow: 1;
+	order: 2;
+}
+#text3{
+	background-color: blue;
+	flex-basis: 200px;
+	flex-grow: 0;
+}
