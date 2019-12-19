@@ -1,0 +1,78 @@
+button{
+  box-shadow: none;
+  
+}
+body{
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  border-bottom: 2px solid #AAA;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding-bottom: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .order-number{
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url('./thumbnail/martin_garixx.jpg');
+}
+.container .order-number .overlay{
+  opacity: 0%;
+}
+.container .order-number:hover .overlay{
+  background-color: black;
+  opacity: 85%;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+
+.container .popularity{
+  font-size: 12pt;
+  align-items: center;
+  flex-grow: 0;
+  justify-content: center;
+  color: gray;
+}
+.container .info{
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.container .info .song{
+  font-size: 16pt;
+  padding-bottom: 16px;
+}
+.container .info .artists{
+  font-size: 12pt;
+  color: gray;
+}
+
+.container .order-number .overlay:hover .play-button {
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+  color: white;
+  font-size: 60px;
+  user-select: none;
+}
