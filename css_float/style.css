@@ -19,7 +19,7 @@ body{
   background-repeat: no-repeat;
   height: 100%;
   width: 30%;
-  flex-basis: 128px;
+  flex-basis: 180px;
   background-size: cover;
 }
 .header .text{
@@ -45,8 +45,13 @@ body{
   
 }
 .footer{
-  height: 300px;
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   overflow: auto;
+  padding-top: 50px;
 }
 .wrapper:after{
   margin: 0;
