@@ -1,0 +1,30 @@
+.container{
+  background-color: orange;
+  height: 800px;
+  display: flex;
+  flex-basis: 1900px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container .thumb {
+  width: 500px;
+  height: 400px;
+  border: white 18px solid;
+  border-radius: 20px;
+}
+.container .thumb .overlay{
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url('https://picsum.photos/400/500');
+  background-size: cover;
+  height: 400px;
+  transition: all 0.5s;
+  width: 500px;
+}
+
+.container.thumb.overlay :hover .container.thumb .overlay{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 4%, rgba(69,69,69,1) 55%, rgba(255,255,255,0) 100%); 
+}
